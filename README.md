@@ -7,6 +7,11 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B.svg)](https://streamlit.io/)
 [![ChromaDB](https://img.shields.io/badge/ChromaDB-1.5%2B-orange.svg)](https://www.trychroma.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bereket613-ethiopian-coffee-ai-assistant-app-8adb4h.streamlit.app/)
+
+> 🌐 **Live Web Application:**  
+> Access the deployed app directly on Streamlit Community Cloud:  
+> 👉 **[bereket613-ethiopian-coffee-ai-assistant-app-8adb4h.streamlit.app](https://bereket613-ethiopian-coffee-ai-assistant-app-8adb4h.streamlit.app/)**
 
 ---
 
@@ -245,17 +250,17 @@ python -m pytest tests -v
 
 ## 12. Deployment Guide
 
-### Deployment on Streamlit Community Cloud:
-1. Initialize a Git repository in `Ethiopian-Coffee-AI-Assistant`:
-   ```bash
-   git init
-   git add .
-   git commit -m "Deploy Ethiopian Coffee AI Assistant"
-   ```
-2. Push the repository to GitHub.
-3. Log in to [Streamlit Community Cloud](https://share.streamlit.io/).
-4. Select your repository, set the main file path to `app.py`, and click **Deploy**.
-5. The lightweight memory footprint (~1.2GB peak during inference) is fully compatible with Streamlit Community Cloud's standard tier.
+### Live Cloud Deployment:
+The application is live and hosted on **Streamlit Community Cloud**:
+- 🔗 **Live App:** [https://bereket613-ethiopian-coffee-ai-assistant-app-8adb4h.streamlit.app/](https://bereket613-ethiopian-coffee-ai-assistant-app-8adb4h.streamlit.app/)
+- 📦 **GitHub Repository:** [Bereket613/Ethiopian-Coffee-AI-Assistant](https://github.com/Bereket613/Ethiopian-Coffee-AI-Assistant)
+- 🌿 **Branch:** `main`
+- 🚀 **Main Entrypoint:** `app.py`
+
+### Deployment Details:
+1. Automated CI/CD is enabled via Streamlit Community Cloud: any commit pushed to the `main` branch automatically triggers a redeploy.
+2. The custom `.streamlit/config.toml` configures brand color tokens, typography, and headless server mode.
+3. The lightweight memory footprint (~1.2GB peak during inference) is fully compatible with Streamlit Community Cloud's standard tier.
 
 ---
 
