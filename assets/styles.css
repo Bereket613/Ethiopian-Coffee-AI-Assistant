@@ -1,0 +1,221 @@
+/* 
+  Ethiopian Coffee AI Assistant - Design System
+  Palette: Deep Coffee Brown, Forest Green, Warm Cream, Muted Leaf Green
+  Typography: Supports Ethiopic Unicode Script (Nyala, Abyssinica SIL, Kefa) and Latin
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Serif+Ethiopic:wght@400;600;700&display=swap');
+
+:root {
+  --coffee-deep: #2A1810;
+  --coffee-medium: #4A2E18;
+  --coffee-light: #6F4E37;
+  --forest-green: #1B4D3E;
+  --forest-dark: #13392E;
+  --leaf-green: #2D6A4F;
+  --leaf-light: #52B788;
+  --leaf-soft: #D8F3DC;
+  --cream-bg: #FAF8F5;
+  --cream-card: #FFFFFF;
+  --cream-border: #E8E2D9;
+  --text-primary: #1F2421;
+  --text-secondary: #525B56;
+  --text-muted: #747E78;
+  --amber-alert: #B25E00;
+  --amber-bg: #FFF8E6;
+  --amber-border: #FFE082;
+  --rust-color: #C04A18;
+  --font-main: 'Plus Jakarta Sans', 'Noto Serif Ethiopic', 'Segoe UI', system-ui, sans-serif;
+}
+
+html, body, [class*="css"] {
+  font-family: var(--font-main);
+  color: var(--text-primary);
+}
+
+/* Main Container Header */
+.brand-header-container {
+  background: linear-gradient(135deg, var(--coffee-deep) 0%, #3D2214 60%, var(--forest-dark) 100%);
+  border-radius: 14px;
+  padding: 1.8rem 2.2rem;
+  color: #FFFFFF;
+  margin-bottom: 1.8rem;
+  border-left: 6px solid var(--leaf-light);
+  box-shadow: 0 4px 14px rgba(42, 24, 16, 0.08);
+}
+
+.brand-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: #FFFFFF;
+  line-height: 1.2;
+}
+
+.brand-subtitle {
+  font-size: 1.05rem;
+  color: #E2D9D0;
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+/* Feature & Metric Cards */
+.feature-card {
+  background-color: var(--cream-card);
+  border: 1px solid var(--cream-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+.feature-card h3 {
+  color: var(--forest-green);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+.feature-card p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Prediction Result Panel */
+.result-card-healthy {
+  background-color: #F0FDF4;
+  border: 1.5px solid #86EFAC;
+  border-radius: 12px;
+  padding: 1.6rem;
+  margin: 1.2rem 0;
+}
+
+.result-card-disease {
+  background-color: #FFF7ED;
+  border: 1.5px solid #FDBA74;
+  border-radius: 12px;
+  padding: 1.6rem;
+  margin: 1.2rem 0;
+}
+
+.result-badge {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.8rem;
+}
+
+.badge-healthy {
+  background-color: #DCFCE7;
+  color: #166534;
+}
+
+.badge-disease {
+  background-color: #FFEDD5;
+  color: #9A3412;
+}
+
+.prediction-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--coffee-deep);
+  margin: 0.2rem 0 0.5rem 0;
+}
+
+.confidence-chip {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--forest-green);
+  background: #E8F5E9;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #C8E6C9;
+}
+
+/* Advisory & Disclaimer Box */
+.advisory-box {
+  background-color: var(--amber-bg);
+  border-left: 4px solid var(--amber-alert);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  margin: 1.2rem 0;
+  font-size: 0.92rem;
+  color: #5D3E00;
+  line-height: 1.45;
+}
+
+.advisory-title {
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: #7A4200;
+}
+
+/* Chat Leaf Context Chip */
+.leaf-context-banner {
+  background: linear-gradient(90deg, #F0FDF4 0%, #F5FAF7 100%);
+  border: 1px solid #BBF7D0;
+  border-radius: 8px;
+  padding: 0.85rem 1.1rem;
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.context-tag {
+  background-color: var(--forest-green);
+  color: white;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+/* Button styling refinement */
+button[kind="primary"] {
+  background-color: var(--leaf-green) !important;
+  color: #FFFFFF !important;
+  border-radius: 8px !important;
+  border: none !important;
+  font-weight: 600 !important;
+  padding: 0.55rem 1.2rem !important;
+  transition: all 0.2s ease !important;
+}
+
+button[kind="primary"]:hover {
+  background-color: var(--forest-dark) !important;
+  box-shadow: 0 4px 10px rgba(27, 77, 62, 0.25) !important;
+}
+
+/* Source Citation Box */
+.source-citation-card {
+  background-color: #F8F9FA;
+  border: 1px solid #E9ECEF;
+  border-radius: 8px;
+  padding: 0.85rem;
+  margin-top: 0.5rem;
+  font-size: 0.88rem;
+}
+
+.source-title {
+  font-weight: 600;
+  color: var(--forest-green);
+  margin-bottom: 0.2rem;
+}

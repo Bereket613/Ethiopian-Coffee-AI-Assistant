@@ -1,0 +1,158 @@
+{
+  "classes": [
+    "Leaf Miner",
+    "Healthy",
+    "Phoma",
+    "Rust"
+  ],
+  "translations": {
+    "en": {
+      "Leaf Miner": {
+        "display_name": "Coffee Leaf Miner",
+        "scientific_name": "Leucoptera coffeella / Perileucoptera coffeella",
+        "severity": "Moderate to High",
+        "description": "Insect larvae tunneling through leaf mesophyll tissue, reducing photosynthetic capacity and causing premature defoliation.",
+        "symptoms": [
+          "Serpentine, winding brown or translucent tunnels inside the leaf blade",
+          "Silvery or necrotic patches where larvae have fed",
+          "Dry, brittle lesions that may tear easily",
+          "Premature leaf drop in severe infestations"
+        ],
+        "management": [
+          "Conserve natural predators such as parasitic wasps (Mirax and Closterocerus spp.)",
+          "Prune heavily infested lower and shaded branches to increase airflow and light penetration",
+          "Monitor pest thresholds regularly, especially during dry warm seasons",
+          "Consult local agricultural extension officers for approved biological or targeted treatments if threshold is exceeded"
+        ]
+      },
+      "Healthy": {
+        "display_name": "Healthy Coffee Leaf",
+        "scientific_name": "Coffea arabica (Healthy foliage)",
+        "severity": "None",
+        "description": "No detectable signs of fungal infection, necrotic lesions, chlorosis, or insect pest damage. Leaf tissue shows normal vigor.",
+        "symptoms": [
+          "Uniform deep green glossy coloration",
+          "Smooth, pliable leaf texture without tears or blisters",
+          "Intact leaf margins and veins with no discoloration",
+          "Normal leaf expansion and vegetative vigor"
+        ],
+        "management": [
+          "Maintain balanced organic compost or recommended balanced soil nutrition",
+          "Ensure adequate shade-tree canopy management (e.g., Cordia africana, Millettia ferruginea)",
+          "Maintain optimal weed and mulch management around the tree drip line",
+          "Continue routine field scouting during wet and humid periods"
+        ]
+      },
+      "Phoma": {
+        "display_name": "Phoma Leaf Spot",
+        "scientific_name": "Phoma tarda / Peyronellaea spp.",
+        "severity": "Moderate",
+        "description": "Fungal disease causing circular to irregular dark brown lesions, often triggered by cool, wet conditions, high winds, or hail damage.",
+        "symptoms": [
+          "Dark brown or black circular to irregular necrotic lesions",
+          "Concentric rings often visible within older lesions",
+          "Yellow chlorotic halos surrounding dark spots",
+          "Shoot dieback and twig blight in severe high-altitude cases"
+        ],
+        "management": [
+          "Establish effective agroforestry windbreaks to minimize leaf abrasion and wounding",
+          "Prune diseased twigs and collect fallen infected leaves to reduce fungal inoculum",
+          "Improve drainage and ensure sufficient plant spacing to reduce microclimate humidity",
+          "Consult local extension services for recommended preventative organic copper or approved fungicides"
+        ]
+      },
+      "Rust": {
+        "display_name": "Coffee Leaf Rust (CLR)",
+        "scientific_name": "Hemileia vastatrix",
+        "severity": "Critical",
+        "description": "The most economically damaging fungal disease of Arabica coffee worldwide, producing distinctive yellow-orange powdery spore pustules on the lower leaf surface.",
+        "symptoms": [
+          "Small yellowish-orange powdery spots on the underside (abaxial) of leaves",
+          "Chlorotic yellow patches visible on the upper leaf surface corresponding to lower lesions",
+          "Lesions expand, coalesce, turn brown, and become necrotic at the center",
+          "Severe defoliation leading to significant yield reduction and tree dieback"
+        ],
+        "management": [
+          "Plant resistant Ethiopian landraces or approved cultivars (e.g., selections from Jimma Agricultural Research Center)",
+          "Regulate canopy shade to avoid excessive leaf wetness duration",
+          "Collect and destroy heavily infected fallen leaves to suppress urediniospore spread",
+          "Apply approved preventative copper-based contact sprays before the onset of the main rainy season as advised by extension agents"
+        ]
+      }
+    },
+    "am": {
+      "Leaf Miner": {
+        "display_name": "የቡና ቅጠል ሰርጣቂ ተባይ (Leaf Miner)",
+        "scientific_name": "Leucoptera coffeella",
+        "severity": "መካከለኛ እስከ ከፍተኛ",
+        "description": "የተባዩ ትሎች በቅጠሉ ውስጣዊ ክፍል ውስጥ በመቦርቦር የምግብ ማዘጋጀት አቅሙን የሚቀንሱ እና ቅጠል እንዲረግፍ የሚያደርጉ ናቸው።",
+        "symptoms": [
+          "በቅጠሉ ላይ የሚታዩ ጠመዝማዛ ወይም ነጭ/ቡናማ የመቦርቦር መስመሮች",
+          "ደረቅ እና በቀላሉ የሚቀደዱ የቅጠል ክፍሎች",
+          "የቅጠል ቀለም መገርጣት እና መድረቅ",
+          "በከፍተኛ ሁኔታ ሲጠቃ ቅጠሎች ያለጊዜያቸው መርገፍ"
+        ],
+        "management": [
+          "የተባዩን ተፈጥሯዊ ጠላቶች (ጥቃቅን ተርቦችን) መጠበቅ እና መንከባከብ",
+          "በከፍተኛ ደረጃ የተጎዱ ቅርንጫፎችን መቁረጥ እና ማጽዳት",
+          "በደረቅ ወቅት የተባዩን ስርጭት በቅርበት መከታተል",
+          "የጉዳት መጠኑ ከፍ ካለ የአካባቢውን የግብርና ባለሙያ ማማከር"
+        ]
+      },
+      "Healthy": {
+        "display_name": "ጤናማ የቡና ቅጠል",
+        "scientific_name": "Coffea arabica (ጤናማ)",
+        "severity": "ምንም የለም",
+        "description": "ምንም አይነት የበሽታ ምልክት፣ የፈንገስ ኢንፌክሽን ወይም የተባይ ጥቃት የማይታይበት ጤናማ እና ንቁ የቡና ቅጠል።",
+        "symptoms": [
+          "ተፈጥሯዊ እና ወጥ የሆነ የሚያብረቀርቅ አረንጓዴ ቀለም",
+          "ምንም አይነት ነጠብጣብ ወይም መድረቅ የሌለበት ለስላሳ ቅጠል",
+          "ያልተጎዳ እና ሙሉ የቅጠል ቅርጽና ስሮች",
+          "ጥሩ የዕድገት እና የብርታት ሁኔታ"
+        ],
+        "management": [
+          "ተስማሚ የተፈጥሮ ማዳበሪያ ወይም ኮምፖስት አጠቃቀምን መቀጠል",
+          "ተስማሚ የጥላ ዛፎችን (ለምሳሌ፡ ዋንዛ፣ ብርብራ) ሚዛናዊ በሆነ መልኩ ማስተካከል",
+          "በቡና ዛፉ ዙሪያ አረምን በወቅቱ ማረም እና የደረቀ ቅጠል መጎዝጎዝ",
+          "በዝናብ ወቅት መደበኛ ክትትል ማድረግ"
+        ]
+      },
+      "Phoma": {
+        "display_name": "የፎማ ቅጠል ነጠብጣብ በሽታ (Phoma)",
+        "scientific_name": "Phoma tarda",
+        "severity": "መካከለኛ",
+        "description": "በቀዝቃዛ፣ እርጥበታማ እና ንፋሻማ የአየር ሁኔታ የሚባባስ እና በቅጠሉ ላይ ጥቁር ቡናማ ነጠብጣቦችን የሚያስከትል የፈንገስ በሽታ ነው።",
+        "symptoms": [
+          "በቅጠል ላይ የሚታዩ ጥቁር ቡናማ ክብ ወይም ቅርጽ አልባ ቁስሎች",
+          "በቁስሎቹ ዙሪያ የሚታይ ቢጫ የቀለም ክበብ",
+          "የቅጠሎች መድረቅ እና መጨማደድ",
+          "በከፍተኛ ሁኔታ ሲከሰት የቅርንጫፎች ጫፍ መድረቅ"
+        ],
+        "management": [
+          "የንፋስ መከላከያ ዛፎችን በመትከል የቅጠል መጎዳትን መቀነስ",
+          "የተጎዱ ቅጠሎችን እና ቅርንጫፎችን ቆርጦ በማስወገድ በሽታው እንዳይዛመት ማድረግ",
+          "እርጥበት እንዳይከማች የዛፎችን ቅንጣትና አየር ዝውውር ማስተካከል",
+          "ለተጨማሪ ህክምና የግብርና ኤክስቴንሽን ባለሙያዎችን ማማከር"
+        ]
+      },
+      "Rust": {
+        "display_name": "የቡና ቅጠል ዝገት በሽታ (Rust)",
+        "scientific_name": "Hemileia vastatrix",
+        "severity": "በጣም ከፍተኛ (አደገኛ)",
+        "description": "በዓለም አቀፍ ደረጃ በቡና ምርት ላይ ከፍተኛ ጉዳት የሚያደርስ እና በቅጠሉ ስር ብርቱካናማ ቢጫ የዱቄት መሰል ፈንገስ የሚያመጣ አደገኛ በሽታ ነው።",
+        "symptoms": [
+          "በቅጠሉ የጀርባ ክፍል ላይ የሚታዩ ብርቱካናማ-ቢጫ የዱቄት መሰል ነጠብጣቦች",
+          "በቅጠሉ የላይኛው ክፍል ላይ የሚታዩ የገረጡ ቢጫ ቦታዎች",
+          "ነጠብጣቦቹ እየሰፉ ሲሄዱ ወደ ቡናማነት መቀየርና መድረቅ",
+          "ቅጠሎች በብዛት መርገፍና የቡና ዛፉ ምርት መቀነስ"
+        ],
+        "management": [
+          "በበሽታው የማይጠቁ የተመረጡ የሀገር በቀል የቡና ዝርያዎችን መጠቀም",
+          "የጥላ ሽፋን በማስተካከል የቅጠል እርጥበት ረጅም ጊዜ እንዳይቆይ ማድረግ",
+          "የረገፉ እና በከፍተኛ ሁኔታ የተጠቁ ቅጠሎችን ሰብስቦ ማጥፋት",
+          "የዋናው ዝናብ ከመግባቱ በፊት በባለሙያ የሚታዘዙ የኮፐር ጸረ-ፈንገሶችን መጠቀም"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#52B788"/>
+      <stop offset="100%" stop-color="#1B4D3E"/>
+    </linearGradient>
+    <linearGradient id="coffeeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8D5B4C"/>
+      <stop offset="100%" stop-color="#2C1810"/>
+    </linearGradient>
+    <linearGradient id="berryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D90429"/>
+      <stop offset="100%" stop-color="#7B0818"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular background badge -->
+  <circle cx="60" cy="60" r="56" fill="#FAF8F5" stroke="#E8E2D9" stroke-width="2"/>
+
+  <!-- Coffee stem -->
+  <path d="M 60,95 Q 60,60 75,30" fill="none" stroke="#4A2E18" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Left Leaf -->
+  <path d="M 60,75 C 35,70 30,50 45,35 C 60,50 62,65 60,75 Z" fill="url(#leafGrad)"/>
+  <path d="M 60,75 Q 48,55 45,35" fill="none" stroke="#A7D7C5" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Right Leaf -->
+  <path d="M 68,52 C 92,48 95,30 82,18 C 70,30 69,45 68,52 Z" fill="url(#leafGrad)"/>
+  <path d="M 68,52 Q 77,36 82,18" fill="none" stroke="#A7D7C5" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Ripe Coffee Cherry 1 -->
+  <circle cx="58" cy="80" r="9" fill="url(#berryGrad)"/>
+  <ellipse cx="55" cy="77" rx="3" ry="1.5" fill="#FFA5A5" opacity="0.6"/>
+
+  <!-- Ripe Coffee Cherry 2 -->
+  <circle cx="70" cy="83" r="8" fill="url(#berryGrad)"/>
+  <ellipse cx="68" cy="81" rx="2.5" ry="1.2" fill="#FFA5A5" opacity="0.6"/>
+
+  <!-- Roasted Coffee Bean Accent -->
+  <g transform="translate(60, 100) scale(0.6)">
+    <ellipse cx="0" cy="0" rx="14" ry="9" fill="url(#coffeeGrad)"/>
+    <path d="M -9,0 Q 0,-3 9,0" fill="none" stroke="#FAF8F5" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+</svg>

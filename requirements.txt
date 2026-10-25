@@ -1,0 +1,24 @@
+# Ethiopian Coffee AI Assistant - Consolidated Requirements
+# Python >= 3.10 recommended
+
+# Core Deep Learning & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+Pillow>=10.0.0
+numpy>=1.22.0
+
+# Web Application & Interactive UI
+streamlit>=1.28.0
+plotly>=5.15.0
+
+# Vector Database & Retrieval-Augmented Generation (RAG)
+chromadb>=0.4.15
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+
+# Networking & Utilities
+requests>=2.28.0
+python-dotenv>=1.0.0
+
+# Testing & Quality Assurance
+pytest>=7.0.0
