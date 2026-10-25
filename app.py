@@ -6,6 +6,14 @@ Unified Web Application combining Computer Vision, RAG Chatbot, and Amharic Supp
 import sys
 from pathlib import Path
 
+# Streamlit Community Cloud SQLite compatibility fix for ChromaDB
+try:
+    __import__("pysqlite3")
+    import sys
+    sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+except ImportError:
+    pass
+
 # Ensure application directory is in Python path for portable imports
 APP_DIR = Path(__file__).resolve().parent
 if str(APP_DIR) not in sys.path:
